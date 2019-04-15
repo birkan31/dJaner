@@ -8,4 +8,4 @@ bot.on("ready", async () => {
     bot.user.setActivity("Prefix is '-'!", {type: "HIZLANIYOR"});
 });
 
-bot.login(config.token);
+bot.login(process.env.BOT_TOKEN);
